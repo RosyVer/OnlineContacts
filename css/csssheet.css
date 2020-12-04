@@ -1,0 +1,98 @@
+/*Css Sheet for the main page of the Portfolio*/
+body{
+	background-color:#ffd9cc;
+	margin:0 ;
+}
+.Sinistra{
+	margin-left: 30px;
+	text-align: left;
+}
+.Centro{
+	text-align: center;
+}
+.Destra{
+	margin-right: 30px;
+	text-align: right;
+}
+.work{
+	border-style: dotted;
+	border: 10px solid black;
+	border-radius: 9px;
+}
+.work.Destra{
+	margin:0px 500px;
+}
+a{
+	text-decoration: none;
+	color: black;
+	text-shadow: 0 0 5px black;
+}
+ a:hover{
+	color:#ffcc66;
+}
+img{
+	max-height: 500px;
+	max-width: 500px;
+}
+header{
+	padding-top: 50px;
+    padding-bottom: 50px;
+	background-image: linear-gradient( #ffcc66,#ffd9cc);
+}
+header h1{
+	color:black;
+	padding-top:10px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 80px;
+	font-family:  'American Typewriter', serif;
+}
+header h2{
+	text-shadow: 0 0 5px black;
+	color:black;
+	font-family: 'American Typewriter', serif;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 10px;
+}
+header p{
+	font-family: 'American Typewriter', serif;
+	font-size: 20px;
+	text-align: center;
+	color: #404040;
+}
+
+main{
+	color: black;
+	max-width: 100%;
+	margin:0 auto;
+	background-image: linear-gradient(#ffd9cc,#ffe6e6);
+	font-size: 20px;
+	font-family: 'American Typewriter', serif;
+}
+main p{
+	color:rgb(32, 32, 32);
+	text-align: left;
+	padding:0px 10px;
+}
+main h3{
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: black;
+	text-shadow: 0 0 5px black;
+    padding:0px 0px;
+}
+main img{
+	max-width: 100%;
+}
+footer{
+	margin:0 auto;
+	opacity: .5;
+	text-align: center;
+    padding: 50px;
+	background-color: white;
+}
+footer p{
+	line-height: 10px;
+	color: grey;
+}
